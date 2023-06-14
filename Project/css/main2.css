@@ -1,0 +1,592 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mitr';
+}
+body{
+    min-height: 100vh;
+    background: linear-gradient(#000259,#020a39);
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+header .logo{
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 20px;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+    margin-left: 15px;
+}
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff
+   
+}
+header ul li a:hover{
+    background: #fff;
+    color: #218380;
+    border-radius: 20px;
+}
+
+
+.kamkhom img{
+    position: absolute;
+   top: 480px;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   margin: 20px;
+   border: 0px solid #8f2d56 ;
+   border-radius: 50px; 
+   box-shadow:  0.1em 0.1em 2em #fb33db;
+   
+
+}
+
+ul {
+    display: inline block;
+}
+
+.infor{
+    position: absolute;
+    margin-top: 1028px;
+    display:flexbox
+    
+}
+.botton{
+    position: absolute;
+    top: 880px;
+    left: 50%;
+    margin: 20px;
+    transform: translate(-50%,-50%);
+}
+.botton :hover{
+    transform: rotateZ(300deg);
+}
+.Review{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header{
+    background-color: #218380;
+    position:fixed;
+    z-index: 1;
+    height: 10px;
+    margin-bottom: 10px;
+}
+
+
+.Day1{
+    text-align: center;
+    width: 350px;
+    margin: 15px;
+    margin-top: 30px;
+    padding: 15px;
+    padding-right: 15px;
+    box-shadow:  0.1em 0.1em 2em #fb33db;
+    
+    display: block;
+    background-color: #fff;
+}
+.Day1 img{
+    margin: 20px;
+}
+.Review li:hover{
+    background-color: #fff9c6;
+}
+.Day2{
+    text-align: center;
+    width: 350px;
+
+    margin: 15px;
+    margin-top: 30px;
+    padding: 15px;
+    padding-right: 15px;
+    box-shadow:  0.1em 0.1em 2em #fb33db;
+   
+    display: inline-block;
+    transition: width 1.2s;
+    background-color: #fff;
+    transition-delay: 0.1s;
+}
+.Day2 img{
+    margin: 20px;
+}
+.Day3{
+    text-align: center;
+    width: 350px;
+
+    margin: 15px;
+    margin-top: 30px;
+    padding: 15px;
+    padding-right: 15px;
+    box-shadow:  0.1em 0.1em 2em #fb33db;
+   
+    display: inline-block;
+    transition: width 1.2s;
+    background-color: #fff;
+    transition-delay: 0.1s;
+}
+.Day3 img{
+    margin: 20px;
+}
+.Day4{
+    text-align: center;
+    width: 350px;
+
+    margin: 15px;
+    margin-top: 30px;
+    padding: 15px;
+    padding-right: 15px;
+    box-shadow:  0.1em 0.1em 2em #fb33db;
+    
+    display: inline-block;
+    transition: width 1.2s;
+    background-color: #fff;
+    transition-delay: 0.1s;
+}
+.Day4 img{
+    margin: 20px;
+}
+.Day5{
+    text-align: center;
+    width: 350px;
+
+    margin: 15px;
+    margin-top: 30px;
+    padding: 15px;
+    padding-right: 15px;
+    box-shadow:  0.1em 0.1em 2em #fb33db;
+    
+    display: inline-block;
+    transition: width 1.2s;
+    background-color: #fff;
+    transition-delay: 0.1s;
+}
+.Day5 video{
+    margin: 20px;
+}
+.Day6{
+    text-align: center;
+    width: 350px;
+
+    margin: 15px;
+    margin-top: 30px;
+    padding: 15px;
+    padding-right: 15px;
+    box-shadow:  0.1em 0.1em 2em #fb33db;
+
+    display: inline-block;
+    transition: width 1.2s;
+    background-color: #fff;
+    transition-delay: 0.1s;
+}
+.Day6 video{
+    margin: 20px;
+}
+.Day7{
+    text-align: center;
+    width: 350px;
+
+    margin: 15px;
+    margin-top: 30px;
+    padding: 15px;
+    padding-right: 15px;
+    box-shadow:  0.1em 0.1em 2em #fb33db;
+   
+    display: inline-block;
+    transition: width 1.2s;
+    background-color: #fff;
+    transition-delay: 0.1s;
+}
+.Day7 img{
+    margin: 20px;
+}
+.Day8{
+    text-align: center;
+    width: 350px;
+
+    margin: 15px;
+    margin-top: 30px;
+    padding: 15px;
+    padding-right: 15px;
+    box-shadow:  0.1em 0.1em 2em #fb33db;
+    
+    display: inline-block;
+    transition: width 1.2s;
+    background-color: #fff;
+    transition-delay: 0.1s;
+}
+.Day8 img{
+    margin: 20px;
+}
+.Day9{
+    text-align: center;
+    width: 350px;
+
+    margin: 15px;
+    margin-top: 30px;
+    padding: 15px;
+    padding-right: 15px;
+    box-shadow:  0.1em 0.1em 2em #fb33db;
+   
+    display: inline-block;
+    transition: width 1.2s;
+    background-color: #fff;
+    transition-delay: 0.1s;
+}
+.Day9 img{
+    margin: 20px;
+}
+.Day10{
+    text-align: center;
+    width: 350px;
+
+    margin: 15px;
+    margin-top: 30px;
+    padding: 15px;
+    padding-right: 15px;
+    box-shadow:  0.1em 0.1em 2em #fb33db;
+    
+    display: inline-block;
+    transition: width 1.2s;
+    background-color: #fff;
+    transition-delay: 0.1s;
+}
+.Day10 img{
+    margin: 20px;
+}
+
+.lovegarena{
+    text-align: center;
+    margin: 15px;
+    margin-top: 100px;
+    position:relative;
+    padding: 20px;
+    padding-right: 15px;
+    display: inline-block;
+    transition-delay: 0.1s;
+    top: 50px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    font-size: 32px;   
+}
+
+.lovegarena .sen{
+    margin-top: 30px;
+}
+
+
+.aun {
+    text-align: center;
+    width: 350px;
+
+    margin: 15px;
+    margin-top: 30px;
+    padding: 15px;
+    padding-right: 15px;
+    box-shadow: 10px 10px 30px;
+    border: 4px dashed black;
+    display: inline-block;
+    transition: width 1.2s;
+    background-color: #73d2de;
+    transition-delay: 0.1s;
+}
+
+
+
+.top {
+    font-size: 24px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.top2 {
+    font-size: 24px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.top3 {
+    font-size: 24px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.aun:hover{
+    background-color: violet;
+    width: 550px;
+}
+
+.aun img {
+    width: 300px;
+    border-radius: 15px;
+}
+
+.aun .de {
+    overflow-y: hidden;
+font-size: 24px;
+    height: 150px;
+    font-family: 'Mitr', sans-serif;
+}
+
+.aun .so {
+    font-family: 'Kanit', sans-serif;
+    font-size: 24px;
+}
+
+.igaun {
+    margin-top: 25px;
+    margin-bottom: 6px;
+
+}
+
+.jj:hover {
+    background-color: violet;
+    width: 550px;
+}
+
+.jj {
+    text-align: center;
+    width: 350px;
+font-size: 24px;
+    margin: 15px;
+    margin-top: 30px;
+    padding: 15px;
+    padding-right: 15px;
+    box-shadow: 10px 10px 30px;
+    border: 4px dashed black;
+    display: inline-block;
+    transition: width 1.2s;
+    background-color:#73d2de;
+    transition-delay: 0.1s;
+
+}
+
+.jj img {
+    width: 300px;
+    border-radius: 15px;
+}
+
+.jj .de2 {
+    overflow-y: hidden;
+    height: 150px;
+    font-family: 'Mitr', sans-serif;
+
+
+}
+
+.jj .so2 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 24px;
+}
+
+.igjj {
+    margin-top: 25px;
+    margin-bottom: 6px;
+
+}
+
+.plane:hover {
+    background-color: violet;
+    width: 550px;
+}
+
+.plane {
+    text-align: center;
+    width: 350px;
+font-size: 24px;
+    margin: 15px;
+    margin-top: 30px;
+    padding: 15px;
+    padding-right: 15px;
+    box-shadow: 10px 10px 30px;
+    border: 4px dashed black;
+    display: inline-block;
+    transition: width 1.2s;
+    background-color: #73d2de;
+    transition-delay: 0.1s;
+
+
+}
+
+.plane img {
+    width: 300px;
+    border-radius: 15px;
+}
+
+.plane .de3 {
+    overflow-y: hidden;
+    height: 150px;
+    font-family: 'Mitr', sans-serif;
+
+
+}
+
+.plane .so3 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 24px;
+}
+
+.igplane {
+    margin-top: 25px;
+    margin-bottom: 6px
+}
+.ajp{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+   margin-top: 50px;
+}
+.lovegarena{
+    display: block;
+margin: auto;
+margin-top: 80px;
+margin-bottom: 50px;
+}
+.easter img{
+    display: block;
+    margin: auto;
+
+}
+ul .name{
+    font-size: 16px;
+}
+#ads img{
+    width: 130px;
+    
+}
+#ads {
+    position: absolute;
+    right: 0;
+    z-index: 0;
+    top: 10%;
+    height: 75%;
+    margin: 10px;
+    margin-top: 70px;
+    padding: 20px;
+    overflow-x: scroll;
+    border: 1px solid #000;
+    background-color: whitesmoke;
+    opacity: 88%;
+    text-align:center;
+    list-style-type:none;
+    width: 200px;
+}
+#ads .so{
+    height: 200px;
+    width: 200px;
+    overflow-y: scroll ;
+    overflow-x:hidden;
+    text-align: left;
+}
+ul .name {
+    font-size: 16px;
+}
+    button{
+    position:absolute;
+    top: 14.5%;
+    right: 103px;
+   
+}
+.head{
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    margin: 20px;
+    transform: translate(-50%,-50%);
+}
+.head h2{
+    color: white;
+    font-size: 48px;
+    
+}
+.kick{
+    position: absolute;
+    top: 800px;
+    left: 50%;
+    margin: 20px;
+    transform: translate(-50%,-50%);
+}
+.kick h2{
+    color: white;
+    opacity: 50%;
+    font-size: 40px;
+}
+.figma h2{
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: 70px;
+    font-size: 48px;
+}
+.figma iframe{
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 80px;
+}
+.easter h2{
+    margin-top: 250px;
+    text-align: center;
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 0;
+    position: relative;
+    top: 130px;
+}
+.easter h3{
+    margin: 20px;
+    text-align: center;
+    position: relative;
+    top: 650px;
+    left: 20px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.infor h2{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 0;
+}
+.ajp h2{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 0;
+}
+.contact{
+    margin-top: 150px;
+}

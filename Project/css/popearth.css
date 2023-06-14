@@ -1,0 +1,35 @@
+body {
+    margin: 0%;
+    padding: 0%;
+   
+    overflow-y: hidden;
+    font-family: Nunito, sans-serif;
+    background: linear-gradient(#000259,#020a39);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ .image{
+    margin-top: 80px;
+}
+h1{
+    font-size: 80px;
+ 
+    font-family: 'Mitr', sans-serif;
+    color: white;
+}
+#country_score{
+    margin-left: 50px;
+}
+#score{
+    font-size: 48px;
+    font-family: 'Mitr', sans-serif;
+    margin-top: 20px;
+    color: white;
+    margin-bottom: -6%;
+}
+
+
